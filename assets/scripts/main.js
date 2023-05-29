@@ -95,7 +95,7 @@ function bindCartUpdates() {
 function addToCart(id) {
   const cartCount = document.querySelector('#cart-count');
   cartCount.innerHTML = Number(cartCount.innerHTML) + 1;
-  storage.addItem(id);
+  storage.addItem(id); 
 }
 
 /**

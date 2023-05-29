@@ -1,1 +1,5 @@
 # Lab 8 - Starter
+1. It would be best to fit the automated tests within a Github action. Since it is designed to help with the testing process. The automation and consistency would also be helpful since it eliminates other causes that might alter your testing results. Putting the test within a Github action would also ensure that you get feedbacks imediately, causing less pain overall. 
+2. No, can probably use `console.log` to simplify the process. 
+3. I would use a unit test to test the message feature of a messaging application, it has relative independent application from other features of the software. We would only need to test that messages are successfully sent and received and other small details in isolation. 
+4. I would use a unit test to test the max message length, it is an easy feature of the message application to test, indpendent of other features. As long as each messeage sent does not have a length more than the limit would be successful. 
